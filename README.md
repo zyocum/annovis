@@ -62,3 +62,7 @@ Writing SVG to: annotations.svg
 * Find a better way to visualize annotations that span multiple lines?
 * Soft line wrapping?
 * Allow for visualizing more complex annotations, such as relationships
+* Allow for more customizable styling?
+  * Allow for coloring labels by type
+  * Allow for coloring/styling text
+
