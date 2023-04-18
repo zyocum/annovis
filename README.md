@@ -61,7 +61,7 @@ Note that GitHub's rendering of SVG seems to be different from what I see in App
 
 Screenshot in Safari 16.4 on macOS 13.3.1:
 
-![annotation.svg.png](annotations.svg.png "PNG screenshot of annotations as SVG")
+![annotations.svg.png](annotations.svg.png "PNG screenshot of annotations as SVG")
 
 # TODO
 * Fix the vertical padding within the label area
