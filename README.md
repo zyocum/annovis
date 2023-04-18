@@ -57,6 +57,12 @@ Writing SVG to: annotations.svg
 
 ![annotation.svg](annotations.svg "Annotations as SVG")
 
+Note that GitHub's rendering of SVG seems to be different from what I see in Apple's Safari 16 browser. 🤷
+
+Screenshot in Safari 16.4 on macOS 13.3.1:
+
+![annotation.svg.png](annotations.svg.png "PNG screenshot of annotations as SVG")
+
 # TODO
 * Fix the vertical padding within the label area
 * Find a better way to visualize annotations that span multiple lines?
