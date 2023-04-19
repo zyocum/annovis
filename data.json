@@ -12,7 +12,7 @@
       {"start": 52, "end": 54, "label": "EMOJI"},
       {"start": 54, "end": 56, "label": "EMOJI"},
       {"start": 67, "end": 77, "label": "CITY"},
-      {"start": 77, "end": 81, "label": "STATE"},
+      {"start": 79, "end": 81, "label": "STATE"},
       {"start": 67, "end": 81, "label": "LOCATION"}
   ]
 }
