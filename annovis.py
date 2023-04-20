@@ -76,14 +76,15 @@ class Visualization:
     def offset_annotation_labels(self):
         """Set annotation.y offsets so they don't overlap"""
         for line in self.lines:
-            previous, annotations = line.annotations[0], line.annotations[1:]
-            for annotation in annotations:
-                if any((
-                    overlaps(annotation, previous), # overlapping spans
-                    #TODO: handle other conditions like long label strings
-                )):
-                    annotation.y = previous.y + 1
-                previous = annotation
+            if any(line.annotations):
+                previous, annotations = line.annotations[0], line.annotations[1:]
+                for annotation in annotations:
+                    if any((
+                        overlaps(annotation, previous), # overlapping spans
+                        #TODO: handle other conditions like long label strings
+                    )):
+                        annotation.y = previous.y + 1
+                    previous = annotation
     
     def draw(self):
         """Draw the annotations as SVG"""
